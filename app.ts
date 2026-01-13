@@ -1,3 +1,4 @@
+// Ejercicio 1
 function ejercicio1() {
   let nombre: string;
   nombre = "Miguelo";
@@ -13,6 +14,7 @@ function ejercicio1() {
 }
 ejercicio1();
 
+// Ejercicio 2
 function ejercicio2() {
   interface Superheroe {
     nombre: string;
@@ -28,7 +30,7 @@ function ejercicio2() {
 }
 ejercicio2();
 
-
+// Ejercicio 3
 class Rombo {
   private diagonalVertical: number;
   private diagonalHorizontal: number;
@@ -47,6 +49,8 @@ class Rombo {
 const area = new Rombo(2,3);
 console.log(area.calcularArea());
 
-function ejercicio4() {
-  
-}
+// Ejercicio 4
+const suma = (a: number, b: number): number => {
+  return a + b;
+};
+console.log(suma(2,3));
